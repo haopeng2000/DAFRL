@@ -3,9 +3,13 @@
 Code for **A Unified Data-Aware Fidelity and Regularization Learning Paradigm
 for Thick Cloud Removal of Multi-Temporal Remote Sensing Images**.
 
-This repository contains the PyTorch DAFRL/SSFR optimization code and the
+This repository contains the PyTorch DAFRL optimization code and the
 MATLAB regression initializer. Training is optimization-based and may require
 substantial GPU memory and runtime.
+
+## Paper
+
+The original paper is available at [IEEE Xplore](https://ieeexplore.ieee.org/document/11299282).
 
 ## Setup
 
@@ -45,3 +49,30 @@ Results depend on the dataset, device, random initialization, and
 hyperparameters. The repository does not include the paper PDF or datasets;
 use Git LFS, a release asset, or a data repository if redistribution is
 permitted.
+
+## Citation
+
+If you use DAFRL or the related regularization framework, please consider
+citing the following papers:
+
+```bibtex
+@article{peng2025unified,
+  title={A Unified Data-Aware Fidelity and Regularization Learning Paradigm for Thick Cloud Removal of Multitemporal Remote Sensing Images},
+  author={Peng, Hao and Huang, Ting-Zhu and Zhao, Xi-Le and Wu, Wei-Hao and Lin, Jie and Ji, Teng-Yu},
+  journal={IEEE Transactions on Geoscience and Remote Sensing},
+  volume={63},
+  pages={1--13},
+  year={2025},
+  publisher={IEEE}
+}
+
+@article{peng2024deep,
+  title={Deep domain fidelity and low-rank tensor ring regularization for thick cloud removal of multitemporal remote sensing images},
+  author={Peng, Hao and Huang, Ting-Zhu and Zhao, Xi-Le and Lin, Jie and Wu, Wei-Hao and Li, Li-Yuan},
+  journal={IEEE Transactions on Geoscience and Remote Sensing},
+  volume={62},
+  pages={1--14},
+  year={2024},
+  publisher={IEEE}
+}
+```
