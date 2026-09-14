@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+results/
+result/
+*.log
+*.pt
+*.pth
+*.ckpt
+data/*.mat
+!data/README.md
+*.pdf
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
