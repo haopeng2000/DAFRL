@@ -9,7 +9,7 @@ substantial GPU memory and runtime.
 
 ## Paper
 
-The original paper is available at [IEEE Xplore](https://ieeexplore.ieee.org/document/11299282).
+[A Unified Data-Aware Fidelity and Regularization Learning Paradigm for Thick Cloud Removal of Multitemporal Remote Sensing Images](https://ieeexplore.ieee.org/document/11299282)
 
 ## Setup
 
